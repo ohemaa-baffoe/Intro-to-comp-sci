@@ -10,8 +10,49 @@ if (dec >= 128):
   dec -= 128
 else:
   print("0", end = "")
-# Continue for the rest of the place values from 2^6 down to 2^0
 
+# Continue for the rest of the place values from 2^6 down to 2^0
+if (dec >= 64):
+  print("1", end = "")
+  dec -= 64
+else:
+  print("0", end = "")
+
+if (dec >= 32):
+  print("1", end = "")
+  dec -= 32
+else:
+  print("0", end = "")
+
+if (dec >= 16):
+  print("1", end = "")
+  dec -= 16
+else:
+  print("0", end = "")
+
+if (dec >= 8):
+  print("1", end = "")
+  dec -= 8
+else:
+  print("0", end = "")
+
+if (dec >= 4):
+  print("1", end = "")
+  dec -= 4
+else:
+  print("0", end = "")
+
+if (dec >= 2):
+  print("1", end = "")
+  dec -= 2
+else:
+  print("0", end = "")
+
+if (dec >= 1):
+  print("1", end = "")
+  dec -= 1
+else:
+  print("0", end = "")
 
 
 
